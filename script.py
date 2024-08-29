@@ -32,7 +32,7 @@ lgs.fit(X_train, y_train) #training
 print(lgs.score(X_test, y_test))  #testing
 
 #more testing
-X_predict = ['faizanahmad','faizanahmad123','faizanahmad##','ajd1348#28t**','ffffffffff','kuiqwasdi','uiquiuiiuiuiuiuiuiuiuiuiui','mynameisfaizan','mynameis123faizan#','faizan','123456','abcdef']
+X_predict = ['adityaraj','adityaraj123','adityaraj##','ajd1348#28t**','ffffffffff','kuiqwasdi','uiquiuiiuiuiuiuiuiuiuiuiui','mynameisaditya','mynameis123#','aditya','123456','abcdef']
 X_predict = vectorizer.transform(X_predict)
 y_Predict = lgs.predict(X_predict)
 print y_Predict
